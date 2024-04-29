@@ -1,0 +1,28 @@
+{
+    "id": "E6739E86",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1714410422095.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "id": "c19995df5ff54bce97d731c8c3f5873b",
+        "name": "z$plot",
+        "title": "z$plot",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2029587759976,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1714410422095,
+    "read_only": false,
+    "read_only_alternatives": []
+}

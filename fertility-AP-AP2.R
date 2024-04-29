@@ -192,6 +192,10 @@ for (i in 1:nrow(cases)) {
 
   ggsave(filename=here('Plots',paste0(this_code,'-CFR-cumulative-error-distribution.png')),       
          height=8, width=8, units='in')
+  
+  ggsave(filename=here('Plots',paste0(this_code,'-CFR-cumulative-error-distribution.eps')),       
+         height=8, width=8, units='in', dpi=400)
+  
 
   if (this_country == 'Japan') {
     top_right_plot = G
@@ -217,6 +221,11 @@ for (i in 1:nrow(cases)) {
   ggsave(filename=here('Plots',paste0(this_code,'-CFR-error-density.png')),       
          height=8, width=8, units='in')
   
+  ggsave(filename=here('Plots',paste0(this_code,'-CFR-error-density.eps')),       
+         height=8, width=8, units='in', dpi=400)
+  
+  
+  
 } # for i
 
 # final, 4-panel plot WORKING HERE...
@@ -229,3 +238,6 @@ print(G4)
 
 ggsave(filename=here('Plots','2x2-summary.pdf'),       
        height=12, width=14, units='in')
+
+ggsave(filename=here('Plots','2x2-summary.eps'),       
+       height=12, width=14, units='in', dpi=400)
